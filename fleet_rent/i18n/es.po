@@ -1,0 +1,1880 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#   * fleet_rent
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e-20190424\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-17 07:16+0000\n"
+"PO-Revision-Date: 2019-12-17 07:16+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: fleet_rent
+#: model:mail.template,body_html:fleet_rent.email_template_edi_rent
+msgid "\n"
+"           <div style=\"font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: #FFF; \">\n"
+"                      <p>Hello ${object.tenant_id.name}</p>\n"
+"                      <p>We are remind you that your rental vehicle ${object.vehicle_id.name  or ''} 's rent end date is ${object.date or ''}.\n"
+"                   <div style=\"width: 347px; margin: 0px; padding: 5px 14px; line-height: 16px; background-color: #F2F2F2;\">\n"
+"                       <span style=\"color: #222; margin-bottom: 5px; display: block; \">\n"
+"                       <p>Thank you,</p>\n"
+"                       <p>Regards,</p>\n"
+"                       <p>Fleet Manager</p>\n"
+"                   </div>\n"
+"           </div>\n"
+"            "
+msgstr "\n"
+"           <div style=\"font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: #FFF; \">\n"
+"                      <p>Hello ${object.tenant_id.name}</p>\n"
+"                      <p>We are remind you that your rental vehicle ${object.vehicle_id.name  or ''} 's rent end date is ${object.date or ''}.\n"
+"                   <div style=\"width: 347px; margin: 0px; padding: 5px 14px; line-height: 16px; background-color: #F2F2F2;\">\n"
+"                       <span style=\"color: #222; margin-bottom: 5px; display: block; \">\n"
+"                       <p>Thank you,</p>\n"
+"                       <p>Regards,</p>\n"
+"                       <p>Fleet Manager</p>\n"
+"                   </div>\n"
+"           </div>\n"
+"            "
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_asset_asset_video_url
+msgid "//www.youtube.com/embed/mwuPTI8AT7M?rel=0"
+msgstr "//www.youtube.com/embed/mwuPTI8AT7M?rel=0"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_ten_year_roi
+msgid "10year ROI"
+msgstr "10year ROI"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_asset_asset_ten_year_roi
+msgid "10year Return of Investment."
+msgstr "10year Return of Investment."
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_asset_kanban_view
+msgid "<b>Address : </b>"
+msgstr "<b>Address : </b>"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.vehicle_rent_kanban_view
+msgid "<b>End Date : </b>"
+msgstr "<b>End Date : </b>"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_asset_kanban_view
+msgid "<b>Furnishing : </b>"
+msgstr "<b>Furnishing : </b>"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.vehicle_rent_kanban_view
+msgid "<b>Start Date : </b>"
+msgstr "<b>Start Date : </b>"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_maintenance_view_search
+msgid "Account"
+msgstr "Cuenta"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_property_maintenance_account_code
+msgid "Account Code"
+msgstr "Account Code"
+
+#. module: fleet_rent
+#: model:ir.model,name:fleet_rent.model_account_move
+msgid "Account Entry"
+msgstr "Asiento Contable"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_acc_pay_dep_rec_id
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_acc_pay_dep_ret_id
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_manager_id
+msgid "Account Manager"
+msgstr "Account Manager"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_maintenance_view_search
+msgid "Acction Type"
+msgstr "Acction Type"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_property_maintenance_name
+msgid "Action"
+msgstr "Acción"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.view_account_asset_search
+msgid "Active"
+msgstr "Activo"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_analytic_account_duration_cover
+msgid "Additional Notes"
+msgstr "Additional Notes"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_tenancy_rent_schedule_note
+msgid "Additional Notes."
+msgstr "Additional Notes."
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_maintenance_view_form
+msgid "Additional Notes..."
+msgstr "Additional Notes..."
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_analytic_account_description
+msgid "Additional Terms and Conditions"
+msgstr "Additional Terms and Conditions"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_property_maintenance_invc_check
+msgid "Already Created"
+msgstr "Already Created"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_cost_cost_amount
+#: model:ir.model.fields,field_description:fleet_rent.field_sale_cost_amount
+#: model:ir.model.fields,field_description:fleet_rent.field_tenancy_rent_schedule_amount
+msgid "Amount"
+msgstr "Importe"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+msgid "Amount Deposit"
+msgstr "Amount Deposit"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_amount_fee_paid
+msgid "Amount of Fee Paid"
+msgstr "Amount of Fee Paid"
+
+#. module: fleet_rent
+#: model:ir.model,name:fleet_rent.model_account_analytic_account
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_analytic_acc_id
+msgid "Analytic Account"
+msgstr "Cuenta analítica"
+
+#. module: fleet_rent
+#: model:ir.model,name:fleet_rent.model_account_asset_asset
+#: model:ir.model.fields,field_description:fleet_rent.field_account_move_asset_id
+msgid "Asset"
+msgstr "Activo"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_property_maintenance_assign_to
+#: model:ir.ui.view,arch_db:fleet_rent.property_maintenance_view_search
+msgid "Assign To"
+msgstr "Assign To"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.view_account_asset_search
+msgid "Available"
+msgstr "Available"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_bathroom
+msgid "Bathrooms"
+msgstr "Bathrooms"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_bedroom
+msgid "Bedrooms"
+msgstr "Bedrooms"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.view_account_asset_search
+msgid "Booked"
+msgstr "Booked"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_maintenance_view_form
+#: model:ir.ui.view,arch_db:fleet_rent.view_account_asset_search
+#: model:ir.ui.view,arch_db:fleet_rent.view_renew_tenancy_wizard
+#: model:ir.ui.view,arch_db:fleet_rent.view_rent_close_reason_wizard
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: fleet_rent
+#: selection:account.analytic.account,state:0
+msgid "Cancelled"
+msgstr "Cancelled"
+
+#. module: fleet_rent
+#: code:addons/fleet_rent/models/asset.py:41
+#, python-format
+msgid "Cannot create unbalanced journal entry."
+msgstr "Cannot create unbalanced journal entry."
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_maintenance_type_main_cost
+msgid "Check if the recuring cost involve"
+msgstr "Check if the recuring cost involve"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_analytic_account_multi_prop
+msgid "Check this box Multiple property."
+msgstr "Check this box Multiple property."
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_tenancy_rent_schedule_cheque_detail
+msgid "Cheque Detail"
+msgstr "Cheque Detail"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.view_account_asset_search
+msgid "Child Property"
+msgstr "Child Property"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_child_ids
+msgid "Children Assets"
+msgstr "Children Assets"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_city
+msgid "City"
+msgstr "Ciudad"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_search_view
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+msgid "Close"
+msgstr "Cerrar"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+msgid "Close Reason"
+msgstr "Close Reason"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+msgid "Close Reason Note"
+msgstr "Close Reason Note"
+
+#. module: fleet_rent
+#: selection:account.analytic.account,state:0
+msgid "Closed"
+msgstr "Closed"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_search_view
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_tree
+#: model:ir.ui.view,arch_db:fleet_rent.view_tenent_partner_form
+msgid "Code"
+msgstr "Código"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_color
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_color
+msgid "Color"
+msgstr "Color"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+msgid "Confirm Rent"
+msgstr "Confirm Rent"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_construction_cost
+msgid "Construction Cost"
+msgstr "Construction Cost"
+
+#. module: fleet_rent
+#: model:ir.model,name:fleet_rent.model_res_partner
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_contact_id
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_contact_id
+msgid "Contact Name"
+msgstr "Contact Name"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_analytic_account_contact_id
+msgid "Contact person name."
+msgstr "Contact person name."
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+msgid "Contract Information"
+msgstr "Contract Information"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_analytic_account_contract_attachment
+msgid "Contract document attachment for selected vehicle"
+msgstr "Contract document attachment for selected vehicle"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_property_maintenance_cost
+#: model:ir.ui.view,arch_db:fleet_rent.property_maintenance_view_form
+#: model:ir.ui.view,arch_db:fleet_rent.property_maintenance_view_tree
+msgid "Cost"
+msgstr "Coste"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_country_id
+#: model:ir.ui.view,arch_db:fleet_rent.view_account_asset_search
+msgid "Country"
+msgstr "País"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+#: model:ir.ui.view,arch_db:fleet_rent.property_maintenance_view_form
+msgid "Create Invoice"
+msgstr "Crear Factura"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_cost_cost_create_uid
+#: model:ir.model.fields,field_description:fleet_rent.field_maintenance_cost_create_uid
+#: model:ir.model.fields,field_description:fleet_rent.field_maintenance_type_create_uid
+#: model:ir.model.fields,field_description:fleet_rent.field_property_maintenance_create_uid
+#: model:ir.model.fields,field_description:fleet_rent.field_renew_tenancy_create_uid
+#: model:ir.model.fields,field_description:fleet_rent.field_rent_close_reason_create_uid
+#: model:ir.model.fields,field_description:fleet_rent.field_rent_type_create_uid
+#: model:ir.model.fields,field_description:fleet_rent.field_sale_cost_create_uid
+#: model:ir.model.fields,field_description:fleet_rent.field_tenancy_rent_schedule_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_cost_cost_create_date
+#: model:ir.model.fields,field_description:fleet_rent.field_maintenance_cost_create_date
+#: model:ir.model.fields,field_description:fleet_rent.field_maintenance_type_create_date
+#: model:ir.model.fields,field_description:fleet_rent.field_property_maintenance_create_date
+#: model:ir.model.fields,field_description:fleet_rent.field_renew_tenancy_create_date
+#: model:ir.model.fields,field_description:fleet_rent.field_rent_close_reason_create_date
+#: model:ir.model.fields,field_description:fleet_rent.field_rent_type_create_date
+#: model:ir.model.fields,field_description:fleet_rent.field_sale_cost_create_date
+#: model:ir.model.fields,field_description:fleet_rent.field_tenancy_rent_schedule_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_cost_cost_currency_id
+#: model:ir.model.fields,field_description:fleet_rent.field_sale_cost_currency_id
+#: model:ir.model.fields,field_description:fleet_rent.field_tenancy_rent_schedule_currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_current_tenant_id
+msgid "Current Tenant"
+msgstr "Current Tenant"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_ten_date
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_age_of_property
+#: model:ir.model.fields,field_description:fleet_rent.field_cost_cost_date
+#: model:ir.model.fields,field_description:fleet_rent.field_property_maintenance_date
+#: model:ir.model.fields,field_description:fleet_rent.field_sale_cost_date
+#: model:ir.model.fields,field_description:fleet_rent.field_tenancy_rent_schedule_start_date
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_search_view
+#: model:ir.ui.view,arch_db:fleet_rent.tenancy_rent_schedule_search
+#: model:ir.ui.view,arch_db:fleet_rent.view_account_asset_search
+msgid "Date"
+msgstr "Fecha"
+
+#. module: fleet_rent
+#: selection:rent.type,renttype:0
+msgid "Days"
+msgstr "Days"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_asset_kanban_view
+msgid "Delete"
+msgstr "Suprimir"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_deposit
+msgid "Deposit"
+msgstr "Deposit"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+msgid "Deposit Receive"
+msgstr "Deposit Receive"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_deposit_received
+msgid "Deposit Received?"
+msgstr "Deposit Received?"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+msgid "Deposit Return"
+msgstr "Deposit Return"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_amount_return
+msgid "Deposit Returned"
+msgstr "Deposit Returned"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_analytic_account_amount_return
+msgid "Deposit Returned amount for Rental Vehicle."
+msgstr "Deposit Returned amount for Rental Vehicle."
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_deposit_return
+msgid "Deposit Returned?"
+msgstr "Deposit Returned?"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_analytic_account_deposit
+msgid "Deposit amount for Rental Vehicle."
+msgstr "Deposit amount for Rental Vehicle."
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_tenancy_rent_schedule_move_id
+msgid "Depreciation Entry"
+msgstr "Asiento de Depreciación"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_description
+#: model:ir.model.fields,field_description:fleet_rent.field_cost_cost_name
+#: model:ir.model.fields,field_description:fleet_rent.field_property_maintenance_notes
+#: model:ir.model.fields,field_description:fleet_rent.field_sale_cost_name
+msgid "Description"
+msgstr "Descripción"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_cost_cost_display_name
+#: model:ir.model.fields,field_description:fleet_rent.field_maintenance_cost_display_name
+#: model:ir.model.fields,field_description:fleet_rent.field_maintenance_type_display_name
+#: model:ir.model.fields,field_description:fleet_rent.field_property_maintenance_display_name
+#: model:ir.model.fields,field_description:fleet_rent.field_renew_tenancy_display_name
+#: model:ir.model.fields,field_description:fleet_rent.field_rent_close_reason_display_name
+#: model:ir.model.fields,field_description:fleet_rent.field_rent_type_display_name
+#: model:ir.model.fields,field_description:fleet_rent.field_report_fleet_rent_fleet_rental_vehicle_history_xls_display_name
+#: model:ir.model.fields,field_description:fleet_rent.field_sale_cost_display_name
+#: model:ir.model.fields,field_description:fleet_rent.field_tenancy_rent_schedule_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.view_tenent_partner_form
+msgid "Documents"
+msgstr "Documentos"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_maintenance_view_search
+#: selection:property.maintenance,state:0
+msgid "Done"
+msgstr "Hecho"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_search_view
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+#: model:ir.ui.view,arch_db:fleet_rent.property_maintenance_view_search
+#: selection:property.maintenance,state:0
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_rent_type_duration
+msgid "Duration"
+msgstr "Duration"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_duration_cover
+msgid "Duration of Cover"
+msgstr "Duration of Cover"
+
+#. module: fleet_rent
+#: selection:account.asset.asset,facing:0
+msgid "East"
+msgstr "East"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_asset_kanban_view
+msgid "Edit"
+msgstr "Editar"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_renew_tenancy_end_date
+#: model:ir.model.fields,field_description:fleet_rent.field_tenancy_rent_schedule_end_date
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+msgid "End Date"
+msgstr "Fecha final"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_tenancy_rent_schedule_end_date
+msgid "End Date."
+msgstr "End Date."
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+msgid "Enter Terms and Conditions..."
+msgstr "Enter Terms and Conditions..."
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_account_move_line_ids
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_account_move_ids
+msgid "Entries"
+msgstr "Entries"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_expense_account_id
+#: model:ir.model.fields,field_description:fleet_rent.field_fleet_vehicle_expence_acc_id
+msgid "Expense Account"
+msgstr "Cuenta de gasto"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_asset_asset_expense_account_id
+msgid "Expense Account of Property."
+msgstr "Expense Account of Property."
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_date
+msgid "Expiration Date"
+msgstr "Fecha de caducidad"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_facing
+msgid "Facing"
+msgstr "Facing"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_doc_name
+#: model:ir.model.fields,field_description:fleet_rent.field_res_partner_doc_name
+#: model:ir.model.fields,field_description:fleet_rent.field_res_users_doc_name
+msgid "Filename"
+msgstr "Nombre de archivo"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.view_renew_tenancy_wizard
+msgid "Fill up Start date, End date and Periods\n"
+"                   To Renew Tenancy."
+msgstr "Fill up Start date, End date and Periods\n"
+"                   To Renew Tenancy."
+
+#. module: fleet_rent
+#: model:ir.module.category,name:fleet_rent.special_right_rent
+msgid "Fleet Rent Access Right"
+msgstr "Fleet Rent Access Right"
+
+#. module: fleet_rent
+#: model:ir.actions.server,name:fleet_rent.fleet_mail_rent_ir_actions_server
+#: model:ir.cron,cron_name:fleet_rent.fleet_mail_rent
+#: model:ir.cron,name:fleet_rent.fleet_mail_rent
+msgid "Fleet Rent Alert"
+msgstr "Fleet Rent Alert"
+
+#. module: fleet_rent
+#: model:mail.template,subject:fleet_rent.email_template_edi_rent
+msgid "Fleet Vehicle Rent Expire Date"
+msgstr "Fleet Vehicle Rent Expire Date"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_floor
+msgid "Floor"
+msgstr "Floor"
+
+#. module: fleet_rent
+#: selection:account.asset.asset,furnished:0
+msgid "Full Furnished"
+msgstr "Full Furnished"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.view_account_asset_search
+msgid "Furnish Type"
+msgstr "Furnish Type"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_furnished
+msgid "Furnishing"
+msgstr "Furnishing"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_asset_asset_furnished
+msgid "Furnishing."
+msgstr "Furnishing."
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_gfa_feet
+msgid "GFA(Sqft)"
+msgstr "GFA(Sqft)"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_gfa_meter
+msgid "GFA(m)"
+msgstr "GFA(m)"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_asset_asset_gfa_meter
+msgid "Gross floor area in Meter."
+msgstr "Gross floor area in Meter."
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_asset_asset_gfa_feet
+msgid "Gross floor area in Square feet."
+msgstr "Gross floor area in Square feet."
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_ground_rent
+msgid "Ground Rent"
+msgstr "Ground Rent"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_asset_asset_ground_rent
+msgid "Ground rent of Property."
+msgstr "Ground rent of Property."
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_maintenance_view_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_search_view
+#: model:ir.ui.view,arch_db:fleet_rent.view_account_asset_search
+msgid "Group By..."
+msgstr "Agrupar por..."
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.tenancy_rent_schedule_search
+msgid "Group by..."
+msgstr "Agrupar por..."
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_has_image
+msgid "Has Image"
+msgstr "Has Image"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_cr_rent_btn
+msgid "Hide Rent Button"
+msgstr "Hide Rent Button"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+msgid "History"
+msgstr "Historial"
+
+#. module: fleet_rent
+#: selection:rent.type,renttype:0
+msgid "Hours"
+msgstr "Hours"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_cost_cost_id
+#: model:ir.model.fields,field_description:fleet_rent.field_maintenance_cost_id
+#: model:ir.model.fields,field_description:fleet_rent.field_maintenance_type_id
+#: model:ir.model.fields,field_description:fleet_rent.field_property_maintenance_id
+#: model:ir.model.fields,field_description:fleet_rent.field_renew_tenancy_id
+#: model:ir.model.fields,field_description:fleet_rent.field_rent_close_reason_id
+#: model:ir.model.fields,field_description:fleet_rent.field_rent_type_id
+#: model:ir.model.fields,field_description:fleet_rent.field_report_fleet_rent_fleet_rental_vehicle_history_xls_id
+#: model:ir.model.fields,field_description:fleet_rent.field_sale_cost_id
+#: model:ir.model.fields,field_description:fleet_rent.field_tenancy_rent_schedule_id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_res_partner_id_attachment
+#: model:ir.model.fields,field_description:fleet_rent.field_res_users_id_attachment
+msgid "Identity Proof"
+msgstr "Identity Proof"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_image
+msgid "Image"
+msgstr "Imagen"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.view_account_asset_search
+msgid "In Active"
+msgstr "In Active"
+
+#. module: fleet_rent
+#: selection:account.analytic.account,state:0
+#: selection:property.maintenance,state:0
+msgid "In Progress"
+msgstr "In Progress"
+
+#. module: fleet_rent
+#: code:addons/fleet_rent/models/analytic_account.py:742
+#, python-format
+msgid "In order to Renew a Tenancy, Please make all related                     Rent Schedule entries posted."
+msgstr "In order to Renew a Tenancy, Please make all related                     Rent Schedule entries posted."
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_income_acc_id
+#: model:ir.model.fields,field_description:fleet_rent.field_fleet_vehicle_income_acc_id
+msgid "Income Account"
+msgstr "Cuenta de ingresos"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_asset_asset_income_acc_id
+msgid "Income Account of Property."
+msgstr "Income Account of Property."
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_maintenance_view_search
+#: selection:property.maintenance,state:0
+msgid "Incomplete"
+msgstr "Incomplete"
+
+#. module: fleet_rent
+#: model:ir.model,name:fleet_rent.model_fleet_vehicle
+msgid "Information on a vehicle"
+msgstr "Información sobre un vehículo"
+
+#. module: fleet_rent
+#: selection:account.analytic.account,deposit_scheme_type:0
+msgid "Insurance-based"
+msgstr "Insurance-based"
+
+#. module: fleet_rent
+#: model:ir.model,name:fleet_rent.model_account_invoice
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_invc_id
+#: model:ir.model.fields,field_description:fleet_rent.field_cost_cost_invc_id
+#: model:ir.model.fields,field_description:fleet_rent.field_property_maintenance_invc_id
+#: model:ir.model.fields,field_description:fleet_rent.field_sale_cost_invc_id
+#: model:ir.model.fields,field_description:fleet_rent.field_tenancy_rent_schedule_inv
+#: model:ir.model.fields,field_description:fleet_rent.field_tenancy_rent_schedule_invc_id
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_is_property
+msgid "Is Property?"
+msgstr "Is Property?"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_res_partner_tenant
+#: model:ir.model.fields,field_description:fleet_rent.field_res_users_tenant
+msgid "Is Tenant?"
+msgstr "Is Tenant?"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+msgid "Journal Items"
+msgstr "Apuntes contables"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_cost_cost___last_update
+#: model:ir.model.fields,field_description:fleet_rent.field_maintenance_cost___last_update
+#: model:ir.model.fields,field_description:fleet_rent.field_maintenance_type___last_update
+#: model:ir.model.fields,field_description:fleet_rent.field_property_maintenance___last_update
+#: model:ir.model.fields,field_description:fleet_rent.field_renew_tenancy___last_update
+#: model:ir.model.fields,field_description:fleet_rent.field_rent_close_reason___last_update
+#: model:ir.model.fields,field_description:fleet_rent.field_rent_type___last_update
+#: model:ir.model.fields,field_description:fleet_rent.field_report_fleet_rent_fleet_rental_vehicle_history_xls___last_update
+#: model:ir.model.fields,field_description:fleet_rent.field_sale_cost___last_update
+#: model:ir.model.fields,field_description:fleet_rent.field_tenancy_rent_schedule___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_odometer
+msgid "Last Odometer"
+msgstr "Último odómetro"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_cost_cost_write_uid
+#: model:ir.model.fields,field_description:fleet_rent.field_maintenance_cost_write_uid
+#: model:ir.model.fields,field_description:fleet_rent.field_maintenance_type_write_uid
+#: model:ir.model.fields,field_description:fleet_rent.field_property_maintenance_write_uid
+#: model:ir.model.fields,field_description:fleet_rent.field_renew_tenancy_write_uid
+#: model:ir.model.fields,field_description:fleet_rent.field_rent_close_reason_write_uid
+#: model:ir.model.fields,field_description:fleet_rent.field_rent_type_write_uid
+#: model:ir.model.fields,field_description:fleet_rent.field_sale_cost_write_uid
+#: model:ir.model.fields,field_description:fleet_rent.field_tenancy_rent_schedule_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_cost_cost_write_date
+#: model:ir.model.fields,field_description:fleet_rent.field_maintenance_cost_write_date
+#: model:ir.model.fields,field_description:fleet_rent.field_maintenance_type_write_date
+#: model:ir.model.fields,field_description:fleet_rent.field_property_maintenance_write_date
+#: model:ir.model.fields,field_description:fleet_rent.field_renew_tenancy_write_date
+#: model:ir.model.fields,field_description:fleet_rent.field_rent_close_reason_write_date
+#: model:ir.model.fields,field_description:fleet_rent.field_rent_type_write_date
+#: model:ir.model.fields,field_description:fleet_rent.field_sale_cost_write_date
+#: model:ir.model.fields,field_description:fleet_rent.field_tenancy_rent_schedule_write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_property_maintenance_mail_check
+msgid "Mail Send"
+msgstr "Mail Send"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_maintenance_ids
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+#: model:ir.ui.view,arch_db:fleet_rent.property_maintenance_view_graph
+msgid "Maintenance"
+msgstr "Mantenimiento"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_maintenance_view_form
+#: model:ir.ui.view,arch_db:fleet_rent.property_maintenance_view_search
+#: model:ir.ui.view,arch_db:fleet_rent.property_maintenance_view_tree
+msgid "Maintenance & Repairs"
+msgstr "Maintenance & Repairs"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_main_cost
+#: model:ir.model.fields,field_description:fleet_rent.field_maintenance_cost_cost
+#: model:ir.model.fields,field_description:fleet_rent.field_maintenance_type_cost
+msgid "Maintenance Cost"
+msgstr "Maintenance Cost"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_res_partner_maintenance_ids
+#: model:ir.model.fields,field_description:fleet_rent.field_res_users_maintenance_ids
+#: model:ir.ui.view,arch_db:fleet_rent.property_maintenance_view_form
+#: model:ir.ui.view,arch_db:fleet_rent.view_tenent_partner_form
+msgid "Maintenance Details"
+msgstr "Maintenance Details"
+
+#. module: fleet_rent
+#: model:ir.actions.act_window,name:fleet_rent.action_maintenance_type_view
+#: model:ir.model.fields,field_description:fleet_rent.field_maintenance_cost_maint_type
+#: model:ir.model.fields,field_description:fleet_rent.field_maintenance_type_name
+#: model:ir.ui.view,arch_db:fleet_rent.maintenance_type_form
+#: model:ir.ui.view,arch_db:fleet_rent.maintenance_type_tree
+msgid "Maintenance Type"
+msgstr "Maintenance Type"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_analytic_account_acc_pay_dep_rec_id
+#: model:ir.model.fields,help:fleet_rent.field_account_analytic_account_acc_pay_dep_ret_id
+#: model:ir.model.fields,help:fleet_rent.field_account_analytic_account_manager_id
+msgid "Manager of Rental Vehicle."
+msgstr "Manager of Rental Vehicle."
+
+#. module: fleet_rent
+#: code:addons/fleet_rent/models/analytic_account.py:114
+#, python-format
+msgid "May be Out Going Mail                                     server is not configuration."
+msgstr "May be Out Going Mail                                     server is not configuration."
+
+#. module: fleet_rent
+#: selection:rent.type,renttype:0
+msgid "Months"
+msgstr "Months"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_multi_prop
+msgid "Multiple Property"
+msgstr "Multiple Property"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_rent_type_name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_analytic_account_vehicle_id
+#: model:ir.model.fields,help:fleet_rent.field_account_analytic_account_vehicle_property_id
+msgid "Name of Vehicle."
+msgstr "Name of Vehicle."
+
+#. module: fleet_rent
+#: selection:account.analytic.account,state:0
+msgid "New"
+msgstr "New"
+
+#. module: fleet_rent
+#: code:addons/fleet_rent/models/fleet_rent.py:310
+#, python-format
+msgid "No current tenancy for this property"
+msgstr "No current tenancy for this property"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_no_of_towers
+msgid "No of Towers"
+msgstr "No of Towers"
+
+#. module: fleet_rent
+#: selection:account.asset.asset,furnished:0
+msgid "None"
+msgstr "None"
+
+#. module: fleet_rent
+#: selection:account.asset.asset,facing:0
+msgid "North"
+msgstr "North"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_tenancy_rent_schedule_note
+#: model:ir.ui.view,arch_db:fleet_rent.property_maintenance_view_form
+#: model:ir.ui.view,arch_db:fleet_rent.tenancy_rent_form
+msgid "Notes"
+msgstr "Notas"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_asset_asset_floor
+msgid "Number of Floors."
+msgstr "Number of Floors."
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_asset_asset_no_of_property
+msgid "Number of Properties Per Floor."
+msgstr "Number of Properties Per Floor."
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_asset_asset_no_of_towers
+msgid "Number of Towers."
+msgstr "Number of Towers."
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.view_rent_close_reason_wizard
+msgid "OK"
+msgstr "OK"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_occupancy_rates
+msgid "Occupancy Rate"
+msgstr "Occupancy Rate"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_odometer_unit
+msgid "Odometer Unit"
+msgstr "Unidad del odómetro"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_analytic_account_odometer
+msgid "Odometer measure of the vehicle at the moment of this log"
+msgstr "Medida del odómetro del vehículo en el momento de este registro"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.view_account_asset_search
+msgid "On Lease"
+msgstr "On Lease"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_search_view
+msgid "Open"
+msgstr "Abierto"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+#: model:ir.ui.view,arch_db:fleet_rent.property_maintenance_view_form
+msgid "Open Invoice"
+msgstr "Open Invoice"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_tenancy_rent_schedule_paid
+#: model:ir.ui.view,arch_db:fleet_rent.tenancy_rent_schedule_search
+msgid "Paid"
+msgstr "Pagado"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.tenancy_rent_schedule_search
+msgid "Paid Tenant Rent"
+msgstr "Paid Tenant Rent"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_parent_id
+#: model:ir.ui.view,arch_db:fleet_rent.view_account_asset_search
+msgid "Parent Property"
+msgstr "Parent Property"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_cost_cost_payment_details
+#: model:ir.model.fields,field_description:fleet_rent.field_sale_cost_payment_details
+msgid "Payment Details"
+msgstr "Payment Details"
+
+#. module: fleet_rent
+#: model:ir.model,name:fleet_rent.model_account_payment
+msgid "Payments"
+msgstr "Pagos"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.tenancy_rent_schedule_search
+msgid "Pending"
+msgstr "Pending"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_tenancy_rent_schedule_pen_amt
+msgid "Pending Amount"
+msgstr "Pending Amount"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_tenancy_rent_schedule_pen_amt
+msgid "Pending Amount."
+msgstr "Pending Amount."
+
+#. module: fleet_rent
+#: code:addons/fleet_rent/models/analytic_account.py:633
+#, python-format
+msgid "Please Configure Expense Account from Vehicle"
+msgstr "Please Configure Expense Account from Vehicle"
+
+#. module: fleet_rent
+#: code:addons/fleet_rent/models/asset.py:566
+#, python-format
+msgid "Please Configure Income Account from Property"
+msgstr "Please Configure Income Account from Property"
+
+#. module: fleet_rent
+#: code:addons/fleet_rent/models/fleet_rent.py:661
+#: code:addons/fleet_rent/models/fleet_rent.py:791
+#, python-format
+msgid "Please Configure Income Account from Property."
+msgstr "Please Configure Income Account from Property."
+
+#. module: fleet_rent
+#: code:addons/fleet_rent/models/fleet_rent.py:558
+#, python-format
+msgid "Please Configure Income Account from Vehicle."
+msgstr "Please Configure Income Account from Vehicle."
+
+#. module: fleet_rent
+#: code:addons/fleet_rent/models/analytic_account.py:597
+#, python-format
+msgid "Please Enter Deposit amount."
+msgstr "Please Enter Deposit amount."
+
+#. module: fleet_rent
+#: code:addons/fleet_rent/wizard/renew_tenancy.py:84
+#, python-format
+msgid "Please Insert End Date Greater Than Start Date"
+msgstr "Please Insert End Date Greater Than Start Date"
+
+#. module: fleet_rent
+#: code:addons/fleet_rent/models/asset.py:479
+#, python-format
+msgid "Please Insert GFA(Sqft) Please"
+msgstr "Please Insert GFA(Sqft) Please"
+
+#. module: fleet_rent
+#: code:addons/fleet_rent/models/asset.py:489
+#, python-format
+msgid "Please Insert Owner Name"
+msgstr "Please Insert Owner Name"
+
+#. module: fleet_rent
+#: code:addons/fleet_rent/models/fleet_rent.py:303
+#, python-format
+msgid "Please Select Account Code"
+msgstr "Please Select Account Code"
+
+#. module: fleet_rent
+#: code:addons/fleet_rent/models/fleet_rent.py:789
+#, python-format
+msgid "Please Select Customer"
+msgstr "Please Select Customer"
+
+#. module: fleet_rent
+#: code:addons/fleet_rent/models/fleet_rent.py:425
+#, python-format
+msgid "Please Select Expense Account"
+msgstr "Please Select Expense Account"
+
+#. module: fleet_rent
+#: code:addons/fleet_rent/models/fleet_rent.py:423
+#, python-format
+msgid "Please Select Partner"
+msgstr "Please Select Partner"
+
+#. module: fleet_rent
+#: code:addons/fleet_rent/models/fleet_rent.py:305
+#, python-format
+msgid "Please Select Property"
+msgstr "Please Select Property"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_cost_cost_move_check
+#: model:ir.model.fields,field_description:fleet_rent.field_sale_cost_move_check
+#: model:ir.model.fields,field_description:fleet_rent.field_tenancy_rent_schedule_move_check
+msgid "Posted"
+msgstr "Contabilizado"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_maintenance_view_search
+msgid "Progress"
+msgstr "Progress"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_view_asset_tree
+#: model:ir.ui.view,arch_db:fleet_rent.property_view_asset_tree1
+msgid "Properties"
+msgstr "Propiedades"
+
+#. module: fleet_rent
+#: model:ir.actions.act_window,name:fleet_rent.action_property_assets_view
+#: model:ir.model.fields,field_description:fleet_rent.field_cost_cost_purchase_property_id
+#: model:ir.model.fields,field_description:fleet_rent.field_property_maintenance_property_id
+#: model:ir.model.fields,field_description:fleet_rent.field_sale_cost_sale_property_id
+msgid "Property"
+msgstr "Property"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.view_property_graph_view
+msgid "Property Analysis"
+msgstr "Property Analysis"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_asset_asset_age_of_property
+msgid "Property Creation Date."
+msgstr "Property Creation Date."
+
+#. module: fleet_rent
+#: model:ir.actions.act_window,name:fleet_rent.action_account_asset_asset_hierarch
+msgid "Property Hierarchy"
+msgstr "Property Hierarchy"
+
+#. module: fleet_rent
+#: model:ir.actions.act_window,name:fleet_rent.action_property_maintenance_view
+msgid "Property Maintenance"
+msgstr "Property Maintenance"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_property_manager
+msgid "Property Manager/Owner"
+msgstr "Property Manager/Owner"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_no_of_property
+msgid "Property Per Floors."
+msgstr "Property Per Floors."
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.view_account_asset_search
+msgid "Property Type"
+msgstr "Property Type"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.view_account_asset_search
+msgid "Property View"
+msgstr "Property View"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_cost_cost_move_id
+#: model:ir.model.fields,field_description:fleet_rent.field_sale_cost_move_id
+msgid "Purchase Entry"
+msgstr "Purchase Entry"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_pur_instl_chck
+msgid "Purchase Installment Check"
+msgstr "Purchase Installment Check"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_roi
+msgid "ROI"
+msgstr "ROI"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_asset_asset_roi
+msgid "ROI ( Return On Investment ) = ( Total Tenancy rent - Total         maintenance cost ) / Total maintenance cost."
+msgstr "ROI ( Return On Investment ) = ( Total Tenancy rent - Total         maintenance cost ) / Total maintenance cost."
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_rent_close_reason_reason
+msgid "Reason"
+msgstr "Motivo"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.view_rent_close_reason_wizard
+msgid "Reason To Cancel Rent"
+msgstr "Reason To Cancel Rent"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_maintenance_type_main_cost
+msgid "Recurring cost"
+msgstr "Recurring cost"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_ref
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+msgid "Reference"
+msgstr "Referencia"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_cost_cost_remaining_amount
+#: model:ir.model.fields,field_description:fleet_rent.field_sale_cost_remaining_amount
+msgid "Remaining Amount"
+msgstr "Remaining Amount"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_cost_cost_rmn_amnt_per
+#: model:ir.model.fields,field_description:fleet_rent.field_sale_cost_rmn_amnt_per
+msgid "Remaining Amount In %"
+msgstr "Remaining Amount In %"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+#: model:ir.ui.view,arch_db:fleet_rent.view_renew_tenancy_wizard
+#: selection:property.maintenance,name:0
+msgid "Renew"
+msgstr "Renew"
+
+#. module: fleet_rent
+#: model:ir.actions.act_window,name:fleet_rent.action_renew_tenancy_wizz_wizz
+#: model:ir.ui.view,arch_db:fleet_rent.view_renew_tenancy_wizard
+msgid "Renew Tenancy Wizard"
+msgstr "Renew Tenancy Wizard"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.fleet_vehicle_rent_form
+#: model:ir.ui.view,arch_db:fleet_rent.tenancy_rent_calendar
+msgid "Rent"
+msgstr "Rent"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_tenancy_rent_schedule_amount
+msgid "Rent Amount."
+msgstr "Rent Amount."
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_cancel_by_id
+msgid "Rent Close By"
+msgstr "Rent Close By"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_date_cancel
+msgid "Rent Close Date"
+msgstr "Rent Close Date"
+
+#. module: fleet_rent
+#: model:ir.actions.act_window,name:fleet_rent.action_rent_close_reason_wizard
+msgid "Rent Close Wizard"
+msgstr "Rent Close Wizard"
+
+#. module: fleet_rent
+#: model:ir.actions.server,name:fleet_rent.rent_done_cron_ir_actions_server
+#: model:ir.cron,cron_name:fleet_rent.rent_done_cron
+#: model:ir.cron,name:fleet_rent.rent_done_cron
+msgid "Rent Done"
+msgstr "Rent Done"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_rent_entry_chck
+msgid "Rent Entries Check"
+msgstr "Rent Entries Check"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.vehicle_rent_kanban_view
+msgid "Rent Name :"
+msgstr "Rent Name :"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.vehicle_rent_graph_view
+msgid "Rent Per Month"
+msgstr "Rent Per Month"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_rent_schedule_ids
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+#: model:ir.ui.view,arch_db:fleet_rent.tenancy_rent_form
+#: model:ir.ui.view,arch_db:fleet_rent.tenancy_rent_tree
+msgid "Rent Schedule"
+msgstr "Rent Schedule"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_move_schedule_date
+msgid "Rent Schedule Date."
+msgstr "Rent Schedule Date."
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+msgid "Rent Schedule Details"
+msgstr "Rent Schedule Details"
+
+#. module: fleet_rent
+#: model:ir.actions.act_window,name:fleet_rent.action_rent_type_view
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_rent_type_id
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_rent_type_id
+#: model:ir.model.fields,field_description:fleet_rent.field_renew_tenancy_rent_type_id
+#: model:ir.model.fields,field_description:fleet_rent.field_rent_type_renttype
+#: model:ir.ui.menu,name:fleet_rent.menu_rent_type
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_search_view
+#: model:ir.ui.view,arch_db:fleet_rent.rent_type_form
+#: model:ir.ui.view,arch_db:fleet_rent.rent_type_tree
+msgid "Rent Type"
+msgstr "Rent Type"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_tree
+msgid "Rental Name"
+msgstr "Rental Name"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_invoice_new_tenancy_id
+#: model:ir.model.fields,field_description:fleet_rent.field_account_payment_tenancy_id
+#: model:ir.model.fields,field_description:fleet_rent.field_maintenance_cost_tenancy
+#: model:ir.model.fields,field_description:fleet_rent.field_tenancy_rent_schedule_tenancy_id
+#: model:ir.ui.view,arch_db:fleet_rent.tenancy_rent_schedule_search
+msgid "Rental Vehicle"
+msgstr "Rental Vehicle"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+msgid "Rental Vehicle #"
+msgstr "Rental Vehicle #"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_contract_attachment
+msgid "Rental Vehicle Contract"
+msgstr "Rental Vehicle Contract"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_res_partner_tenancy_ids
+#: model:ir.model.fields,field_description:fleet_rent.field_res_users_tenancy_ids
+#: model:ir.model.fields,help:fleet_rent.field_res_partner_tenancy_ids
+#: model:ir.model.fields,help:fleet_rent.field_res_users_tenancy_ids
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_tree
+#: model:ir.ui.view,arch_db:fleet_rent.view_tenent_partner_form
+msgid "Rental Vehicle Details"
+msgstr "Rental Vehicle Details"
+
+#. module: fleet_rent
+#: model:ir.actions.report,name:fleet_rent.fleet_rental_vehicle_history_report_xlsx
+msgid "Rental Vehicle History"
+msgstr "Rental Vehicle History"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+msgid "Rental Vehicle Information"
+msgstr "Rental Vehicle Information"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.view_tenent_partner_form
+msgid "Rental Vehicle Name"
+msgstr "Rental Vehicle Name"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_payment_tenancy_id
+#: model:ir.model.fields,help:fleet_rent.field_tenancy_rent_schedule_tenancy_id
+msgid "Rental Vehicle Name."
+msgstr "Rental Vehicle Name."
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_rent
+msgid "Rental Vehicle Rent"
+msgstr "Rental Vehicle Rent"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_analytic_account_ten_date
+msgid "Rental Vehicle contract creation date."
+msgstr "Rental Vehicle contract creation date."
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_analytic_account_date
+msgid "Rental Vehicle contract end date."
+msgstr "Rental Vehicle contract end date."
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_analytic_account_date_start
+msgid "Rental Vehicle contract start date ."
+msgstr "Rental Vehicle contract start date ."
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_analytic_account_rent
+msgid "Rental vehicle rent for selected vehicle per rent type."
+msgstr "Rental vehicle rent for selected vehicle per rent type."
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_property_maintenance_renters_fault
+msgid "Renters Fault"
+msgstr "Renters Fault"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_fleet_vehicle_rent_count
+msgid "Rents"
+msgstr "Rents"
+
+#. module: fleet_rent
+#: selection:property.maintenance,name:0
+msgid "Repair"
+msgstr "Repair"
+
+#. module: fleet_rent
+#: selection:property.maintenance,name:0
+msgid "Replace"
+msgstr "Replace"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_revenue
+msgid "Revenue"
+msgstr "Revenue"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.view_account_asset_search
+#: model:ir.ui.view,arch_db:fleet_rent.view_property_gantt
+msgid "Sale"
+msgstr "Venta"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_sale_instl_chck
+msgid "Sale Installment Check"
+msgstr "Sale Installment Check"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_sale_price
+msgid "Sale Price"
+msgstr "Precio de venta"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_asset_asset_sale_price
+msgid "Sale price of the Property."
+msgstr "Sale price of the Property."
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_move_schedule_date
+msgid "Schedule Date"
+msgstr "Schedule Date"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+msgid "Schedule Rent"
+msgstr "Schedule Rent"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.maintenance_type_view_search
+#: model:ir.ui.view,arch_db:fleet_rent.rent_type_view_search
+msgid "Search Property"
+msgstr "Search Property"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.tenancy_rent_schedule_search
+msgid "Search Tenant Rent"
+msgstr "Search Tenant Rent"
+
+#. module: fleet_rent
+#: selection:account.asset.asset,furnished:0
+msgid "Semi Furnished"
+msgstr "Semi Furnished"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_cost_cost_rmn_amnt_per
+#: model:ir.model.fields,help:fleet_rent.field_sale_cost_rmn_amnt_per
+msgid "Shows remaining amount in Percentage"
+msgstr "Shows remaining amount in Percentage"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_cost_cost_remaining_amount
+#: model:ir.model.fields,help:fleet_rent.field_sale_cost_remaining_amount
+msgid "Shows remaining amount in currency"
+msgstr "Shows remaining amount in currency"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_simulation_date
+msgid "Simulation Date"
+msgstr "Simulation Date"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_asset_asset_simulation_date
+msgid "Simulation Date."
+msgstr "Simulation Date."
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_simulation_name
+msgid "Simulation Name"
+msgstr "Simulation Name"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.view_account_asset_search
+msgid "Sold"
+msgstr "Sold"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_move_source
+msgid "Source"
+msgstr "Source"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_move_source
+msgid "Source from where account move created."
+msgstr "Source from where account move created."
+
+#. module: fleet_rent
+#: selection:account.asset.asset,facing:0
+msgid "South"
+msgstr "South"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_date_start
+#: model:ir.model.fields,field_description:fleet_rent.field_renew_tenancy_start_date
+msgid "Start Date"
+msgstr "Fecha de inicio"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_tenancy_rent_schedule_start_date
+msgid "Start Date."
+msgstr "Start Date."
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_maintenance_view_form
+msgid "Start Process"
+msgstr "Start Process"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_state_id
+#: model:ir.model.fields,field_description:fleet_rent.field_property_maintenance_state
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_search_view
+#: model:ir.ui.view,arch_db:fleet_rent.property_maintenance_view_search
+#: model:ir.ui.view,arch_db:fleet_rent.view_account_asset_search
+msgid "State"
+msgstr "Estado"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_state
+#: model:ir.model.fields,field_description:fleet_rent.field_tenancy_rent_schedule_state
+msgid "Status"
+msgstr "Estado"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_street
+msgid "Street"
+msgstr "Calle"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_street2
+msgid "Street2"
+msgstr "Calle2"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_search_view
+msgid "Tenancy Name"
+msgstr "Tenancy Name"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_tenancy_property_ids
+msgid "Tenancy Property"
+msgstr "Tenancy Property"
+
+#. module: fleet_rent
+#: model:ir.actions.act_window,name:fleet_rent.action_tenancy_rent
+msgid "Tenancy Rent Schedule"
+msgstr "Tenancy Rent Schedule"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_tenant_id
+#: model:ir.model.fields,field_description:fleet_rent.field_property_maintenance_tenant_id
+#: model:ir.model.fields,field_description:fleet_rent.field_tenancy_rent_schedule_rel_tenant_id
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_search_view
+#: model:ir.ui.view,arch_db:fleet_rent.tenancy_rent_schedule_search
+msgid "Tenant"
+msgstr "Tenant"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.vehicle_rent_kanban_view
+msgid "Tenant :"
+msgstr "Tenant :"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+msgid "Tenant Name"
+msgstr "Tenant Name"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_analytic_account_tenant_id
+msgid "Tenant Name of Rental Vehicle."
+msgstr "Tenant Name of Rental Vehicle."
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.tenancy_rent_schedule_search
+msgid "Tenant Rent in this month"
+msgstr "Tenant Rent in this month"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+msgid "Terms & Conditions"
+msgstr "Terms & Conditions"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+msgid "Terms and Conditions"
+msgstr "Términos y condiciones"
+
+#. module: fleet_rent
+#: code:addons/fleet_rent/models/analytic_account.py:518
+#, python-format
+msgid "The Rent Is In-Progress So You Can Not Delete It."
+msgstr "The Rent Is In-Progress So You Can Not Delete It."
+
+#. module: fleet_rent
+#: code:addons/fleet_rent/models/analytic_account.py:600
+#, python-format
+msgid "The deposit amount must be strictly positive."
+msgstr "The deposit amount must be strictly positive."
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.tenancy_rent_schedule_search
+msgid "This Month"
+msgstr "Este Mes"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_analytic_account_vehicle_image
+msgid "This field holds the image used as logo for the brand, limited to 1024x1024px."
+msgstr "Este campo contiene la imagen usado como logo para la marca, limitada a 1024x1024px."
+
+#. module: fleet_rent
+#: selection:account.analytic.account,state:0
+msgid "To Renew"
+msgstr "To Renew"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_simulation
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+msgid "Total Amount"
+msgstr "Importe total"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+msgid "Total Credit"
+msgstr "Crédito total"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_total_credit_amt
+msgid "Total Credit Amount"
+msgstr "Total Credit Amount"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+msgid "Total Debit"
+msgstr "Débito total"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_total_debit_amt
+msgid "Total Debit Amount"
+msgstr "Total Debit Amount"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_total_deb_cre_amt
+msgid "Total Expenditure"
+msgstr "Total Expenditure"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_asset_asset_occupancy_rates
+msgid "Total Occupancy rate of Property."
+msgstr "Total Occupancy rate of Property."
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_total_price
+msgid "Total Price"
+msgstr "Precio total"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_asset_asset_total_price
+msgid "Total Price of Property, \n"
+"Total Price = Unit Price *         GFA (Sqft)."
+msgstr "Total Price of Property, \n"
+"Total Price = Unit Price *         GFA (Sqft)."
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_total_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_tree
+#: model:ir.ui.view,arch_db:fleet_rent.view_tenent_partner_form
+msgid "Total Rent"
+msgstr "Total Rent"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_analytic_account_total_rent
+msgid "Total rent of this Rental Vehicle."
+msgstr "Total rent of this Rental Vehicle."
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_township
+msgid "Township"
+msgstr "Township"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_analytic_account_deposit_received
+msgid "True if deposit amount received for current Rental Vehicle."
+msgstr "True if deposit amount received for current Rental Vehicle."
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_analytic_account_deposit_return
+msgid "True if deposit amount returned for current Rental Vehicle."
+msgstr "True if deposit amount returned for current Rental Vehicle."
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_tenancy_rent_schedule_paid
+msgid "True if this rent is paid by tenant"
+msgstr "True if this rent is paid by tenant"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_property_maintenance_type
+#: model:ir.ui.view,arch_db:fleet_rent.property_maintenance_view_search
+msgid "Type"
+msgstr "Tipo"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_deposit_scheme_type
+msgid "Type of Scheme"
+msgstr "Type of Scheme"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_unit_price
+msgid "Unit Price"
+msgstr "Precio unitario"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_asset_asset_unit_price
+msgid "Unit Price Per Sqft."
+msgstr "Unit Price Per Sqft."
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_analytic_account_odometer_unit
+msgid "Unit of the odometer "
+msgstr "Unidad del odómetro "
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.tenancy_rent_schedule_search
+msgid "Unpaid Tenant Rent"
+msgstr "Unpaid Tenant Rent"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_vehicle_id
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_vehicle_property_id
+#: model:ir.model.fields,field_description:fleet_rent.field_account_invoice_vehicle_id
+#: model:ir.model.fields,field_description:fleet_rent.field_tenancy_rent_schedule_vehicle_id
+#: model:ir.model.fields,help:fleet_rent.field_account_move_asset_id
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_search_view
+msgid "Vehicle"
+msgstr "Vehículo"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_vehicle_image
+msgid "Vehicle Image"
+msgstr "Vehicle Image"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+msgid "Vehicle Information"
+msgstr "Vehicle Information"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_view_form
+msgid "Vehicle Name"
+msgstr "Vehicle Name"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_invoice_vehicle_id
+#: model:ir.model.fields,help:fleet_rent.field_tenancy_rent_schedule_vehicle_id
+msgid "Vehicle Name."
+msgstr "Vehicle Name."
+
+#. module: fleet_rent
+#: model:ir.actions.act_window,name:fleet_rent.action_vehicle_rent_analytic_view
+#: model:ir.ui.menu,name:fleet_rent.menu_vehicle_rent
+#: model:ir.ui.view,arch_db:fleet_rent.property_analytic_search_view
+msgid "Vehicle Rent"
+msgstr "Vehicle Rent"
+
+#. module: fleet_rent
+#: model:res.groups,name:fleet_rent.group_vehicle_manager
+msgid "Vehicle Rent Manager"
+msgstr "Vehicle Rent Manager"
+
+#. module: fleet_rent
+#: model:res.groups,name:fleet_rent.group_vehicle_user
+msgid "Vehicle Tenant"
+msgstr "Vehicle Tenant"
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_video_url
+msgid "Video URL"
+msgstr "Video URL"
+
+#. module: fleet_rent
+#: code:addons/fleet_rent/models/analytic_account.py:114
+#, python-format
+msgid "Warning"
+msgstr "Warning"
+
+#. module: fleet_rent
+#: selection:rent.type,renttype:0
+msgid "Weeks"
+msgstr "Weeks"
+
+#. module: fleet_rent
+#: selection:account.asset.asset,facing:0
+msgid "West"
+msgstr "West"
+
+#. module: fleet_rent
+#: selection:rent.type,renttype:0
+msgid "Years"
+msgstr "Years"
+
+#. module: fleet_rent
+#: code:addons/fleet_rent/models/analytic_account.py:734
+#, python-format
+msgid "You can not renew rent for %s                                 because this vehicle is in                                 write-off."
+msgstr "You can not renew rent for %s                                 because this vehicle is in                                 write-off."
+
+#. module: fleet_rent
+#: code:addons/fleet_rent/models/analytic_account.py:716
+#, python-format
+msgid "You can not set draft stage Because                         rent schedule is created."
+msgstr "You can not set draft stage Because                         rent schedule is created."
+
+#. module: fleet_rent
+#: code:addons/fleet_rent/models/analytic_account.py:834
+#, python-format
+msgid "You can't create new rent schedule Please make                         all related Rent Schedule entries paid."
+msgstr "You can't create new rent schedule Please make                         all related Rent Schedule entries paid."
+
+#. module: fleet_rent
+#: code:addons/fleet_rent/models/analytic_account.py:528
+#, python-format
+msgid "You cannot delete Tenancy record, if any related Rent                     Schedule entries are in posted."
+msgstr "You cannot delete Tenancy record, if any related Rent                     Schedule entries are in posted."
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_asset_asset_zip
+msgid "Zip"
+msgstr "C.P."
+
+#. module: fleet_rent
+#: model:ir.model.fields,field_description:fleet_rent.field_account_analytic_account_cost_id
+msgid "cost"
+msgstr "cost"
+
+#. module: fleet_rent
+#: model:ir.model,name:fleet_rent.model_cost_cost
+msgid "cost.cost"
+msgstr "cost.cost"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_account_analytic_account_main_cost
+msgid "insert maintenance cost"
+msgstr "insert maintenance cost"
+
+#. module: fleet_rent
+#: model:ir.model.fields,help:fleet_rent.field_maintenance_cost_cost
+#: model:ir.model.fields,help:fleet_rent.field_maintenance_type_cost
+msgid "insert the cost"
+msgstr "insert the cost"
+
+#. module: fleet_rent
+#: model:ir.model,name:fleet_rent.model_maintenance_cost
+msgid "maintenance.cost"
+msgstr "maintenance.cost"
+
+#. module: fleet_rent
+#: model:ir.model,name:fleet_rent.model_maintenance_type
+msgid "maintenance.type"
+msgstr "maintenance.type"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.view_renew_tenancy_wizard
+msgid "or"
+msgstr "or"
+
+#. module: fleet_rent
+#: model:ir.ui.view,arch_db:fleet_rent.fleet_vehicle_rent_form
+msgid "Show the rent detail for this vehicle"
+msgstr "Show the rent detail for this vehicle"
